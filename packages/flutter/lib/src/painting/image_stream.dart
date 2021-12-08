@@ -847,7 +847,7 @@ class MultiFrameImageStreamCompleter extends ImageStreamCompleter {
         exception: error,
         stack: stack,
         informationCollector: informationCollector,
-        silent: true,
+        silent: false,
       );
     });
     if (chunkEvents != null) {
